@@ -1,0 +1,52 @@
+@charset 'utf-8';
+@import url('reset (2).css');
+
+body,
+html {
+    height: 100%;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-outer {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#header {
+    position: relative;
+    height: 116px;
+}
+
+#header h1 {
+    padding-top: 40px;
+}
+
+#header .open-gnb {
+    display: none;
+}
+
+#header .nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    /* border: 1px solid #f00; */
+}
+
+#header .nav .depth1>li {
+    display: inline-block;
+}
+
+#header .nav .depth1>li>a {
+    font-size: 18px;
+    color: #eee;
+    padding: 0px 30px;
+}
+
+.header-outer .nav1 {
+    display: none;
+}

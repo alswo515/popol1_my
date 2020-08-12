@@ -1,0 +1,139 @@
+@media only screen and (max-width:900px) {
+    #header .nav .depth1>li>a {
+        font-size: 18px;
+        color: #eee;
+        padding: 0px 20px;
+    }
+}
+
+
+
+@media only screen and (max-width:800px) {
+    #header {
+        position: fixed;
+        width: 100%;
+        height: 90px;
+        background: rgba(0, 0, 0, 1);
+    }
+
+
+
+    #header h1 {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #header .open-gnb {
+        /* display: none; */
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 17px;
+        z-index: 99999;
+    }
+
+    #header .open-gnb span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        margin-bottom: 4px;
+        border-radius: 10px;
+    }
+
+    #header .depth1 {
+        display: none;
+    }
+
+    .header-outer .nav1 {
+        display: block;
+        background: rgba(0, 0, 0, 1);
+        width: 70%;
+        height: 100%;
+        position: fixed;
+        top: 0%;
+        left: 0;
+        transform: translateY(0%);
+        text-align: center;
+        /* display: none; */
+    }
+
+    .header-outer .nav1 .open-gnb {
+        display: block;
+        float: right;
+        padding: 25px;
+        padding-right: 50px;
+    }
+
+    .header-outer .open-gnb span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        margin-bottom: 4px;
+        border-radius: 10px;
+    }
+
+
+
+
+    .header-outer .nav1 .depth1 {
+        width: 55%;
+        height: 100%;
+        border-right: 0.5px solid #7c7c7c;
+    }
+
+
+
+    .header-outer .nav1 .depth1>li>h1 {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+        font-size: 40px;
+        color: #eee;
+    }
+
+    .header-outer .nav1 .depth2 {
+        position: absolute;
+        top: 28%;
+        right: 0%;
+        width: 45%;
+        height: 100%;
+    }
+
+    .header-outer .nav1 .depth2>li {
+        height: 18%;
+        display: block;
+        width: 100%;
+    }
+
+    .header-outer .nav1 .depth2>li>a {
+        font-size: 14px;
+        color: #7c7c7c;
+        display: block;
+        border-bottom: 0.5px #7c7c7c solid;
+        width: 75%;
+        text-align: left;
+        padding-left: 18px;
+        padding-bottom: 10px;
+    }
+
+    .header-outer .nav1 .depth2>li>a:hover {
+        color: #fff;
+        border-bottom: 0.5px #fff solid;
+
+    }
+
+
+
+
+
+
+
+
+
+}
